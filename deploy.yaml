@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo
-        cicd-e2e:37
+        image: cicd-e2e:37
         ports:
         - containerPort: 8000
 
